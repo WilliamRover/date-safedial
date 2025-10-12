@@ -1,0 +1,139 @@
+body {
+    font-family: MulishREG;
+    background-color: #373737;
+    color: #ededff;
+}
+@font-face {
+  font-family: MulishREG;
+  src: url(Mulish-VariableFont_wght.ttf); 
+}
+:root {
+    --rotation: 0deg;
+}
+/* Midpage */
+.midpage {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* Title */
+.title h1 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+.line hr {
+    width:150px;
+    border: 2px solid #ededff;
+    margin: 0 auto;
+}
+.line {
+    margin-top:-25px;
+}
+.subTitle p{
+    font-size:1.25vw;
+}
+.subTitle {
+    margin-top:23px;
+}
+/* Date */
+.schedule {
+    margin-left: 15px;
+}
+.format {
+    font-weight: 1000;
+}
+.submit {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left:-10px;
+}
+.submit button {
+    color: #373737;
+    width: 130%;
+    height: 30px;
+    border: 0px;
+    border-radius: 3px;
+    font-weight: 600;
+    background-color: #ededff;
+}
+.confirm {
+    float:left;
+    margin-right: 40px;
+}
+.reset {
+    float:right;
+}
+.submit button:hover {
+    background-color: #d8d8e7;
+}
+/* Instructions */
+.instructions {
+    position: absolute;
+    font-weight: 600;
+}
+.instructions button {
+    color: #373737;
+    width: 110%;
+    height: 30px;
+    border: 0px;
+    border-radius: 3px;
+    font-weight: 600;
+    background-color: #ededff;
+}
+.instructions button:hover {
+    background-color: #d8d8e7;
+}
+.dialLeft {
+    float:left;
+    margin-left: -15vw;
+    margin-top: 15vw;
+}
+.dialRight {
+    float:right;
+    margin-left: 40vw;
+    margin-top: 15vw;
+}
+/* Safe */
+.safe {
+    /* position: absolute; */
+    margin-top: 20px;
+}
+
+.dial {
+    position: absolute;
+    margin-top: -28.5vw;
+    margin-left:1.5vw;
+    rotate: var(--rotation);
+}
+
+.img1 {
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+}
+.img2 {
+    display: flex;
+    width: 27vw;
+    height: 27vw;
+    /* position: absolute; */
+}
+/* Footer */
+.footer {
+    height: 100px;
+    color: #373737;
+    background-color: #dddddd;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer a {
+    color:#373737;
+}
+.madeFor, .madeBy {
+    margin-top:25px;
+    font-weight: 500;
+}
