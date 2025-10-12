@@ -67,7 +67,7 @@ left.onclick = function() {
     }
 }
 
-function reset() {
+reset.onclick = function() {
     a = 0;
     rotation = 0;
     r.style.setProperty('--rotation', rotation + "deg");
@@ -77,9 +77,6 @@ function reset() {
     for (let i = 0; i < 4; i++) {
         dayNum[i].textContent = "--";
     }
-}
-reset.onclick = function() {
-    reset();
 }
 submit.onclick = function() {
     confirm("Your chosen date is " + dayNum[0].textContent + " / " + dayNum[1].textContent + " / " + dayNum[2].textContent + dayNum[3].textContent);
