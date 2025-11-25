@@ -1,1 +1,1 @@
-[Run index.html](https://williamrover.github.io/date-safedial/)
+Link: https://williamrover.github.io/date-safedial/
